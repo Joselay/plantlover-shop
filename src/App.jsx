@@ -36,11 +36,11 @@ const App = () => {
       <h1 className="mt-24 mb-8 text-4xl font-bold text-center">
         Customer Review
       </h1>
-      <section className="grid grid-cols-1 gap-y-8 w-[80%] mx-auto md:grid-cols-2 ">
+      <section className="grid grid-cols-1 gap-y-8 w-[80%] mx-auto md:grid-cols-2 md:gap-x-4 md:gap-y-6">
         <CustomerReview
-          initialX={100}
+          initialX={-100}
           color="blue"
-          name="Jose"
+          name="Sasuke"
           src="images/sasuke.webp"
           comment='"Astonishing variety of plants made my selection effortless. The
           expert advice ensured I chose the perfect addition to my home. Highly
@@ -48,9 +48,9 @@ const App = () => {
         />
         <CustomerReview
           initialX={100}
-          color="blue"
-          name="Jose"
-          src="images/sasuke.webp"
+          color="gray"
+          name="Itachi"
+          src="images/itachi.jpg"
           comment='"Astonishing variety of plants made my selection effortless. The
           expert advice ensured I chose the perfect addition to my home. Highly
           recommend for all plant enthusiasts!"'
@@ -58,14 +58,14 @@ const App = () => {
         <CustomerReview
           initialX={-100}
           color="yellow"
-          name="John"
+          name="Boruto"
           src="images/boruto.webp"
           comment='"Great experience shopping for plants online. Quality plants, smooth navigation, and helpful advice. Highly recommend this site to fellow plant lovers!"'
         />
         <CustomerReview
           initialX={100}
           color="pink"
-          name="Rose"
+          name="Sarada"
           src="images/sarada.webp"
           comment='"Impressed with the variety and quality of plants. The website is user-friendly, and the expert advice provided valuable insights. Happy customer!"'
         />

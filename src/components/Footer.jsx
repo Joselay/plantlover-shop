@@ -3,24 +3,25 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-[#2c3328] mt-36">
-      <h1 className="pt-12 text-2xl font-bold text-center">Cindy & Jose</h1>
-
       <div className="flex items-center justify-between gap-10 px-8 py-10 border-b border-stone-500">
-        <div className="flex flex-col self-start gap-6">
-          <ul className="flex flex-col gap-4 text-sm">
-            <li className="transition duration-300 hover:text-stone-400">
+        <div className="flex flex-col self-start gap-6 md:gap-8">
+          <h1 className="pt-12 text-2xl font-bold text-center md:p-0 md:self-start">
+            Cindy & Jose
+          </h1>
+          <ul className="flex flex-col gap-4 text-sm md:flex-row">
+            <li className="transition duration-300 text-stone-100 hover:text-stone-400">
               <a href="#">About Us</a>
             </li>
-            <li className="transition duration-300 hover:text-stone-400">
+            <li className="transition duration-300 text-stone-100 hover:text-stone-400">
               <a href="#">Shop</a>
             </li>
-            <li className="transition duration-300 hover:text-stone-400">
+            <li className="transition duration-300 text-stone-100 hover:text-stone-400">
               <a href="#">Sales</a>
             </li>
-            <li className="transition duration-300 hover:text-stone-400">
+            <li className="transition duration-300 text-stone-100 hover:text-stone-400">
               <a href="#">Support</a>
             </li>
-            <li className="transition duration-300 hover:text-stone-400">
+            <li className="transition duration-300 text-stone-100 hover:text-stone-400">
               <a href="#">Contacts</a>
             </li>
           </ul>
@@ -32,8 +33,14 @@ const Footer = () => {
           <p>Address: Phnom Penh, Cambodia</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-3 px-8 py-4 mt-3 text-sm">
-        <p>&copy; plantlover 2024. Cindy & Jose. All Rights Reserved</p>
+      <div className="flex flex-col items-center justify-center gap-3 px-8 py-4 mt-3 text-sm md:flex-row md:justify-between">
+        <p>
+          &copy; plantlover 2024.
+          <span className="font-semibold cursor-pointer hover:underline">
+            Cindy & Jose
+          </span>
+          . All Rights Reserved
+        </p>
         <ul className="flex gap-6">
           <li>
             <a href="#">

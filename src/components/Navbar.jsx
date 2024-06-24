@@ -9,7 +9,7 @@ const Navbar = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       id="navbar"
-      className="flex justify-between items-center border border-stone-700 w-[85%] mx-auto p-4 bg-gray-400 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 mt-10"
+      className="flex justify-between items-center border border-stone-700 w-[85%] mx-auto p-4 bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 mt-10"
     >
       <a
         className="text-xl font-bold transition duration-300 hover:text-stone-300"
@@ -18,7 +18,7 @@ const Navbar = () => {
         <span>Cindy & Jose</span>
       </a>
       <nav>
-        <ul className="hidden">
+        <ul className="items-center justify-center hidden gap-10 lg:flex">
           <li>
             <a href="#">Home</a>
           </li>

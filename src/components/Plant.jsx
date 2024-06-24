@@ -8,8 +8,8 @@ const Plant = ({ title, margin, src }) => {
         className={`flex flex-col items-center justify-center gap-6 p-6 w-[85%] mx-auto ${margin}`}
       >
         {title && (
-          <h1 className="text-4xl font-bold text-center mt-44">
-            Our Trendy Plants
+          <h1 className="text-4xl font-bold text-center mt-44 lg:mt-16 lg:mb-4">
+            {title}
           </h1>
         )}
 
