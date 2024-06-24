@@ -6,10 +6,10 @@ const Plant = ({ title, margin, src }) => {
   return (
     <>
       <section
-        className={`flex flex-col items-center justify-center gap-6 p-6 w-[85%] mx-auto ${margin}`}
+        className={`flex flex-col items-center justify-center gap-6 p-6 w-[85%] mx-auto ${margin} xl:mt-0`}
       >
         {title && (
-          <h1 className="text-4xl font-bold text-center mt-44 lg:mt-16 lg:mb-4">
+          <h1 className="text-4xl font-bold text-center mt-44 lg:mt-16 lg:mb-4 2xl:text-5xl">
             {title}
           </h1>
         )}
@@ -19,7 +19,7 @@ const Plant = ({ title, margin, src }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="flex flex-col max-w-3xl p-6 mx-auto bg-gray-400 border md:flex-row rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:justify-center md:items-center"
+            className="flex flex-col max-w-3xl p-6 mx-auto bg-gray-400 border md:flex-row rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:justify-center md:items-center "
           >
             <img
               src={src}
@@ -64,7 +64,7 @@ const Plant = ({ title, margin, src }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="flex flex-col max-w-3xl p-6 mx-auto bg-gray-400 border md:flex-row rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:justify-center md:items-center lg:flex-row-reverse "
+            className="flex flex-col max-w-3xl p-6 mx-auto bg-gray-400 border md:flex-row rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:justify-center md:items-center lg:flex-row-reverse"
           >
             <img
               src={src}

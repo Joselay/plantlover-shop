@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <section className="flex flex-col items-center justify-center w-full h-full gap-6 mt-16">
+      <section className="flex flex-col items-center justify-center w-full h-full gap-6 mt-16 xl:relative xl:mt-0">
         <motion.h1
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           id="hero__title"
-          className="text-5xl font-bold text-center w-[85%] mx-auto mt-64 lg:w-[50%] lg:text-6xl lg:mt-28 lg:leading-[5rem]
+          className="text-5xl font-bold text-center w-[85%] mx-auto mt-64 lg:w-[50%] lg:text-6xl lg:mt-28 lg:leading-[5rem] xl:mt-0 xl:absolute xl:top-[6rem] xl:text-7xl
           "
         >
           Discover a world of greenery
@@ -21,7 +21,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
           id="rosemary__card"
-          className="relative flex items-center justify-between w-[25rem] h-[18.75rem] bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 py-12 px-6 gap-6 group cursor-pointer mt-28 "
+          className="relative flex items-center justify-between w-[25rem] h-[18.75rem] bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 py-12 px-6 gap-6 group cursor-pointer mt-28 xl:absolute xl:left-[6rem] xl:w-[25%] 2xl:left-[10rem] 2xl:bottom-[18rem]"
         >
           <div className="flex flex-col w-full h-full gap-4">
             <img
@@ -69,7 +69,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-4xl font-bold text-center top-[33rem] right-[5rem] mt-20 mb-33 lg:text-5xl text-inherit lg:mt-32"
+          className="text-4xl font-bold text-center top-[33rem] right-[5rem] mt-20 mb-33 lg:text-5xl text-inherit lg:mt-32 xl:absolute xl:top-[13rem] xl:left-[30rem] 2xl:left-[45rem]"
         >
           Why Choose Us?
         </motion.h1>
@@ -78,10 +78,10 @@ const Hero = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           viewport={{ once: true }}
-          className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12 lg:justify-evenly lg:w-[85%] lg:mx-auto lg:mt-8"
+          className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12 lg:justify-evenly lg:w-[85%] lg:mx-auto lg:mt-8 xl:absolute"
         >
-          <div className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4">
-            <div className="flex items-center justify-center gap-4">
+          <div className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4 xl:absolute xl:w-[30%] xl:top-[6rem] 2xl:w-[25%] 2xl:right-[35rem]">
+            <div className="flex items-center justify-center gap-4 ">
               <h1 className="text-xl font-semibold">Wide Selection</h1>
               <img src="/images/wide_logo.svg" alt="Wide Selection" />
             </div>
@@ -97,9 +97,9 @@ const Hero = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
-            className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4"
+            className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4 xl:absolute xl:w-[30%] xl:right-0 xl:top-[6rem] 2xl:w-[25%] 2xl:right-[5rem]"
           >
-            <div className="flex items-center justify-center gap-4 lg:px-6">
+            <div className="flex items-center justify-center gap-4 lg:px-6 ">
               <h1 className="text-xl font-semibold lg:whitespace-nowrap">
                 Quality Guaranteed
               </h1>
@@ -117,7 +117,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
-            className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4"
+            className="flex bg-gray-400 border rounded-3xl border-stone-700 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 w-[70%] flex-col justify-center items-center px-4 py-8 h-[10rem] gap-4 xl:absolute xl:w-[30%] xl:right-[12rem] 2xl:right-[18rem] 2xl:w-[25%]"
           >
             <div className="flex items-center justify-center gap-4">
               <h1 className="text-xl font-semibold">Expert Advice</h1>
