@@ -15,17 +15,19 @@ const TopSellPlant = ({ src, initialX }) => {
         alt="Buston Fern"
         className="object-auto h-[15rem] w-full md:w-1/2 rounded-xl bg-center ml-2"
       />
-      <div className="flex flex-col justify-between w-full gap-2 p-4">
+      <div className="flex flex-col justify-between w-full gap-2 p-4 ">
         <h1 className="w-full mx-auto text-4xl font-bold text-center sm:text-3xl md:absolute md:left-0 top-8">
           Boston Fern
         </h1>
-        <p className="mt-4 text-sm text-center text-stone-400 md:mb-16 ">
+        <p className="mt-4 text-sm text-center text-stone-400 md:mb-16 lg:text-left lg:leading-6 lg:text-base">
           Vibrant green foliage adds elegance and freshness to any indoor space,
           perfect for brightening up your home.
         </p>
 
         <div className="flex justify-center gap-4 mt-4 md:absolute md:bottom-0 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 ">
-          <span className="mt-2 text-2xl font-bold text-center ">$ 499</span>
+          <span className="mt-2 text-2xl font-bold text-center lg:text-3xl">
+            $ 499
+          </span>
           <button className="flex items-center justify-center gap-6 px-4 py-2 text-sm text-white transition duration-300 border rounded-lg hover:bg-stone-200 hover:text-gray-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"

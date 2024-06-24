@@ -21,7 +21,7 @@ const App = () => {
       <h1 className="mt-12 mb-8 text-4xl font-bold text-center">
         Our Top Selling
       </h1>
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-4 w-[90%] mx-auto">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-y-6 gap-x-4 w-[90%] mx-auto">
         <TopSelling
           initialX={100}
           src="images/arecaPalm.svg"
